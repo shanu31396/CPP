@@ -1,6 +1,6 @@
 // #include <bits/stdc++.h>
 #include <iostream>
-
+#include"myheader.h" // user-defined header file
 using namespace std;
 int main()
 {
@@ -11,9 +11,11 @@ int main()
     // std::cout << "Hello World!" << std::endl;
     cout << "The value of a is " << a << endl;
     cout << "The value of b is " << b << endl;
+    sum(a, b); // function call
     cout << "The value of c is " << c << endl;
     return 0;
 } 
+// there r 2 types of header files: System & User-defined 
 
 /*The entire code is pushed on
  GitHub having address*/
