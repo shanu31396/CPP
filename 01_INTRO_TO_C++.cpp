@@ -13,7 +13,7 @@ int main()
     cout << "The value of b is " << b << endl;
     cout << "The value of c is " << c << endl;
     return 0;
-}
+} 
 
 /*The entire code is pushed on
  GitHub having address*/
