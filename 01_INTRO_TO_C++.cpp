@@ -1,6 +1,7 @@
 // #include <bits/stdc++.h>
 #include <iostream>
 #include"myheader.h" // user-defined header file
+#include <string> // an input method in string header is getline(cin, var_name) which takes input with spaces
 using namespace std;
 int main()
 {
