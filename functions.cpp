@@ -39,6 +39,10 @@ inline int productof(int a, int b)
     c++;
     return a * b + c;
 }
+
+int moneyreceived(int money, float rate  = 1.04){
+    return money * rate;
+}
 int main()
 {
     int a = 1, b = 2;
@@ -60,8 +64,11 @@ int main()
     cin >> c >> d;
     cout << "The product of c & d is : "<<productof(c,d)<<endl;
     cout << "The product of c & d is : "<<productof(c,d)<<endl;
-    cout << "The product of c & d is : "<<productof(c,d)<<endl;
-    cout << "The product of c & d is : "<<productof(c,d)<<endl;
-    cout << "The product of c & d is : "<<productof(c,d)<<endl;
+
+    cout << "If you have $1000, you will receive: $"<<moneyreceived(1000)<<endl;
+    cout << "If you have $1000, you will receive: $"<<moneyreceived(1000, 1.05)<<endl;
+
+
+
     return 0;
 }
