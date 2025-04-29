@@ -32,6 +32,13 @@ inline int product(int a, int b)
 {
     return a * b;
 }
+
+inline int productof(int a, int b)
+{
+    static int c = 0;
+    c++;
+    return a * b + c;
+}
 int main()
 {
     int a = 1, b = 2;
@@ -47,5 +54,14 @@ int main()
     cout << "After swapRef: a = " << a << ", b = " << b << endl;
 
     cout << "The product of a and b is : "<<product(3,4)<<endl;
+
+    int c , d;
+    cout << "Enter two numbers: ";
+    cin >> c >> d;
+    cout << "The product of c & d is : "<<productof(c,d)<<endl;
+    cout << "The product of c & d is : "<<productof(c,d)<<endl;
+    cout << "The product of c & d is : "<<productof(c,d)<<endl;
+    cout << "The product of c & d is : "<<productof(c,d)<<endl;
+    cout << "The product of c & d is : "<<productof(c,d)<<endl;
     return 0;
 }
