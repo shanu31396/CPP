@@ -40,7 +40,7 @@ inline int productof(int a, int b)
     return a * b + c;
 }
 
-int moneyreceived(int money, float rate  = 1.04){
+int moneyreceived(int money, float rate  = 1.04){ // default arguments should be in extreme right
     return money * rate;
 }
 int main()
